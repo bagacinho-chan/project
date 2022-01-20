@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="casino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="casino.Designer.cs">
+      <DependentUpon>casino.cs</DependentUpon>
+    </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="Resgatar_recompensas.Designer.cs">
       <DependentUpon>Resgatar_recompensas.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="casino.resx">
+      <DependentUpon>casino.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
