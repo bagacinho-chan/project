@@ -16,5 +16,12 @@ namespace project_principal
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 voltar = new Form1();
+            this.Hide();
+            voltar.Show();
+        }
     }
 }

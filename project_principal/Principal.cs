@@ -33,5 +33,12 @@ namespace project_principal
             this.Hide();
             resgatar.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            casino casino = new casino();
+            this.Hide();
+            casino.Show();
+        }
     }
 }
