@@ -39,16 +39,16 @@ namespace project_principal
             this.button8 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Green;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(35, 61);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(52, 94);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 44);
+            this.button1.Size = new System.Drawing.Size(144, 68);
             this.button1.TabIndex = 0;
             this.button1.Text = "Trivia";
             this.button1.UseVisualStyleBackColor = false;
@@ -57,10 +57,9 @@ namespace project_principal
             // 
             this.button2.BackColor = System.Drawing.Color.Red;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(205, 61);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(308, 94);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(96, 44);
+            this.button2.Size = new System.Drawing.Size(144, 68);
             this.button2.TabIndex = 1;
             this.button2.Text = "Snake Game";
             this.button2.UseVisualStyleBackColor = false;
@@ -69,10 +68,9 @@ namespace project_principal
             // 
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(385, 61);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Location = new System.Drawing.Point(578, 94);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(96, 44);
+            this.button3.Size = new System.Drawing.Size(144, 68);
             this.button3.TabIndex = 2;
             this.button3.Text = "Pac-Man";
             this.button3.UseVisualStyleBackColor = false;
@@ -81,10 +79,9 @@ namespace project_principal
             // 
             this.button4.BackColor = System.Drawing.Color.Red;
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(35, 166);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Location = new System.Drawing.Point(52, 255);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(96, 44);
+            this.button4.Size = new System.Drawing.Size(144, 68);
             this.button4.TabIndex = 3;
             this.button4.Text = "Labirinto";
             this.button4.UseVisualStyleBackColor = false;
@@ -93,10 +90,9 @@ namespace project_principal
             // 
             this.button5.BackColor = System.Drawing.Color.Red;
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(205, 166);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Location = new System.Drawing.Point(308, 255);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(96, 44);
+            this.button5.Size = new System.Drawing.Size(144, 68);
             this.button5.TabIndex = 4;
             this.button5.Text = "Tetris";
             this.button5.UseVisualStyleBackColor = false;
@@ -105,20 +101,18 @@ namespace project_principal
             // 
             this.button6.BackColor = System.Drawing.Color.Red;
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(385, 166);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Location = new System.Drawing.Point(578, 255);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(96, 44);
+            this.button6.Size = new System.Drawing.Size(144, 68);
             this.button6.TabIndex = 5;
             this.button6.Text = "Casino (+18)";
             this.button6.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(438, 250);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Location = new System.Drawing.Point(657, 385);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(87, 34);
+            this.button7.Size = new System.Drawing.Size(130, 52);
             this.button7.TabIndex = 6;
             this.button7.Text = "Fechar o programa";
             this.button7.UseVisualStyleBackColor = true;
@@ -126,10 +120,9 @@ namespace project_principal
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(353, 250);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button8.Location = new System.Drawing.Point(530, 385);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(61, 34);
+            this.button8.Size = new System.Drawing.Size(92, 52);
             this.button8.TabIndex = 7;
             this.button8.Text = "Resgatar";
             this.button8.UseVisualStyleBackColor = true;
@@ -138,28 +131,38 @@ namespace project_principal
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(452, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(678, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 13);
+            this.label1.Size = new System.Drawing.Size(76, 20);
             this.label1.TabIndex = 8;
             this.label1.Text = "Pontos: 0";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(48, 17);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(72, 26);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 13);
+            this.label3.Size = new System.Drawing.Size(248, 20);
             this.label3.TabIndex = 10;
             this.label3.Text = "BEM-VINDO AO GAME CENTER";
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(201, 359);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(126, 24);
+            this.radioButton1.TabIndex = 11;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 292);
+            this.ClientSize = new System.Drawing.Size(800, 449);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button8);
@@ -170,7 +173,6 @@ namespace project_principal
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Menu principal";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -191,6 +193,7 @@ namespace project_principal
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
 
