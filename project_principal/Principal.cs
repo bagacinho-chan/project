@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace project_principal
 {
@@ -39,6 +40,24 @@ namespace project_principal
             casino casino = new casino();
             this.Hide();
             casino.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Process.Start(@"E:\PSI\Módulo 9\projeto\project_principal\games\Space Invaders\SpaceInvadersPSI\bin\Debug\netcoreapp3.1\SpaceInvadersPSI.exe");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Process.Start(@"E:\PSI\Módulo 9\projeto\project_principal\games\Trivia\Trivia_menu\bin\Debug\Trivia_menu.exe");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Process.Start(@"E:\PSI\Módulo 9\projeto\project_principal\games\jogo de plataformas\projeto_psi_m9\bin\Debug\projeto_psi_m9");
         }
     }
 }

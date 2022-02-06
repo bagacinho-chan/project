@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
+using System.IO;
+
 
 namespace project_principal
 {
@@ -22,6 +25,24 @@ namespace project_principal
             Form1 voltar = new Form1();
             this.Hide();
             voltar.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Process.Start(@"D:\PSI\Módulo 9\projeto\project_principal\casino\horse_game\bin\Debug\projeto_casino.exe");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Process.Start(@"D:\PSI\Módulo 9\projeto\project_principal\casino\JogodaToupeira\bin\Debug\JogodaToupeira.exe");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Process.Start(@"D:\PSI\Módulo 9\projeto\project_principal\casino\Slotmachine\Slotmachine\bin\Debug\Slotmachine.exe");
         }
     }
 }
