@@ -64,6 +64,7 @@ namespace project_principal
             this.button2.TabIndex = 2;
             this.button2.Text = "Slot Machine";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -73,6 +74,7 @@ namespace project_principal
             this.button3.TabIndex = 3;
             this.button3.Text = "Corrida de cavalos";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -80,8 +82,9 @@ namespace project_principal
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(107, 63);
             this.button4.TabIndex = 4;
-            this.button4.Text = "Corrida de cavalos";
+            this.button4.Text = "Jogo da toupeira";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
